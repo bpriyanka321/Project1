@@ -1,0 +1,105 @@
+{
+  "name": "student",
+  "plural": "students",
+  "options": { 
+  "idInjection": false,
+  "mysql": {
+  "schema": "test1",
+  "table": "student"
+  }
+  },
+  "properties": {
+    "Id": {
+      "type": "number",
+      "required": true,
+      "id":true,
+      "mysql": {
+   "columnName": "Id",
+  "dataType": "number",
+  "dataLength": 11,
+  "dataPrecision": null,
+  "dataScale": null,
+  "nullable": "N"
+  }
+    },
+    "firstName": {
+      "type": "string",
+      "required": true,
+      "mysql": {
+
+        "columnName": "firstName",
+  
+        "dataType": "string",
+  
+        "dataLength": 45,
+  
+        "dataPrecision": null,
+  
+        "dataScale": null,
+  
+        "nullable": "N"
+  
+      }
+    },
+    "lastName": {
+      "type": "string",
+      "mysql": {
+
+        "columnName": "lastName",
+  
+        "dataType": "string",
+  
+        "dataLength": 45,
+  
+        "dataPrecision": null,
+  
+        "dataScale": null,
+  
+        "nullable": "Y"
+  
+      }
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "mysql": {
+
+        "columnName": "email",
+  
+        "dataType": "string",
+  
+        "dataLength": 45,
+  
+        "dataPrecision": null,
+  
+        "dataScale": null,
+  
+        "nullable": "N"
+  
+      }
+    },
+    "mobileNumber": {
+      "type": "string",
+      "required": true,
+      "mysql": {
+
+        "columnName": "mobileNumber",
+  
+        "dataType": "string",
+  
+        "dataLength": 11,
+  
+        "dataPrecision": null,
+  
+        "dataScale": null,
+  
+        "nullable": "N"
+  
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
